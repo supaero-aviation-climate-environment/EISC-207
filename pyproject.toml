@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "aeromaps-eisc207"
+version = "0.1.0-beta"
+description = "Aviation et climat - Conception et analyse de scénarios de transition du secteur aérien"
+readme = "README.md"
+authors = [
+    "Scott DELBECQ <scott.delbecq@isae-supaero.fr>",
+    "Jérome FONTANE <jerome.fontane@isae-supaero.fr>",
+    "Nicolas GOURDAIN <nicolas.gourdain@isae-supaero.fr>",
+    "Thomas PLANES <thomas.planes@isae-supaero.fr>",
+    "Florian SIMATOS <florian.simatos@isae-supaero.fr>",
+]
+keywords = [
+    "air transport",
+    "climate change",
+    "prospective scenarios",
+    "energy issues",
+]
+license = "GPL-3.0-only"
+homepage = "https://github.com/supaero-aviation-climate-environment/EISC-207"
+
+[tool.poetry.dependencies]
+python = "^3.8.0, <3.11"
+aeromaps = "0.6.1-beta"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
