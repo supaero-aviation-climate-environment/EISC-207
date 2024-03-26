@@ -21,7 +21,7 @@ homepage = "https://github.com/supaero-aviation-climate-environment/EISC-207"
 
 [tool.poetry.dependencies]
 python = "^3.8.0, <3.11"
-aeromaps = "0.6.1-beta"
+aeromaps = "0.6.2-beta"
 
 [build-system]
 requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
